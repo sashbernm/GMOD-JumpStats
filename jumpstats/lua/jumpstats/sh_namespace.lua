@@ -1,7 +1,7 @@
 -- Shared declarations first.
 JumpStats = JumpStats or {}
 
-JumpStats.kVersion = JumpStats.kVersion or "0.1.0"
+JumpStats.kVersion = JumpStats.kVersion or "0.5.0"
 JumpStats.Version = JumpStats.kVersion
 JumpStats.debug_enabled = JumpStats.debug_enabled or false
 JumpStats.Debug = JumpStats.debug_enabled
