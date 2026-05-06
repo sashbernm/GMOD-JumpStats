@@ -19,7 +19,7 @@ function JumpStats.ChatCommands.Initialize()
   end
 
   hook.Add("PlayerSay", "JumpStats.ChatCommands.PlayerSay", function(ply, text, team_chat)
-    return JumpStats.ChatCommands.HandlePlayerSay(ply, text, team_chat)
+    JumpStats.ChatCommands.HandlePlayerSay(ply, text, team_chat)
   end)
 
   JumpStats.ChatCommands.initialized = true
